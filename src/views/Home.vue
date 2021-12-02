@@ -15,8 +15,10 @@
       <b-col class="tarjetas col-md-4" v-for="titan in titanes" v-bind:key="titan" >
         <h2>Nombre: {{ titan.name }}</h2>
         <h4>Edad: {{ titan.Age }}</h4>
+        <h4>Origen: {{ titan.origin }}</h4>
+        <h4>Titan: {{ titan.titan }}</h4>
         <h5>Alliance: {{ titan.alliance }}</h5>
-        <h5>Death: {{ titan.Death }}</h5>
+        
         <img v-bind:src="titan.img" alt="" />
       </b-col>
     </b-row>
