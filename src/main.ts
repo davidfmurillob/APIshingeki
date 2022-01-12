@@ -14,7 +14,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(VueAxios, axios)
 
 
-
 new Vue({
   router,
   render: (h) => h(App),
